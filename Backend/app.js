@@ -12,7 +12,7 @@ const rideRoutes = require('./routes/ride.routes');
 
 connectToDb();
 const corsOptions = {
-  origin:"https://careervista-frontend.onrender.com",
+  origin:"https://gohop-mobile-fr.onrender.com",
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials:true
 }
