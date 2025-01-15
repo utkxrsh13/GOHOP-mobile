@@ -12,8 +12,9 @@ const rideRoutes = require('./routes/ride.routes');
 
 connectToDb();
 const corsOptions = {
-    origin: 'https://gohop-mobile-fr.onrender.com', 
+    origin: true, 
     methods: '*',
+    allowedHeaders: '*', 
   };  
 app.use(cors(corsOptions));
 app.use(express.json());
